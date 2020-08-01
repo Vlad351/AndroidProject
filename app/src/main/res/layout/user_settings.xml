@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:id="@+id/uniq_id"
+        android:text=""
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"
+        >
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:hint="Name"
+        android:id="@+id/change_name_et"
+        ></EditText>
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="Apply"
+        android:id="@+id/apply_changes_button"
+        ></Button>
+
+</LinearLayout>

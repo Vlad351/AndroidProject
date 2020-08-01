@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="normal|bold"
+        android:id="@+id/messageUser"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/messageTime"
+        android:layout_alignParentEnd="true"/>
+
+    <com.github.library.bubbleview.BubbleTextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/messageText"
+        android:textSize="19sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/messageUser"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:angle="8dp"
+        app:arrowWidth="8dp"
+        app:arrowHeight="10dp"
+        app:arrowPosition="10dp"
+        app:arrowLocation="left"
+        app:bubbleColor="#6CB4D8"
+        app:arrowCenter="false"
+        />
+
+</RelativeLayout>
